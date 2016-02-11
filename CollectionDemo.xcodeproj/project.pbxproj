@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C4EDCDC1C6A940500781303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4EDCDB1C6A940500781303 /* AppDelegate.swift */; };
+		7C4EDCE11C6A940500781303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4EDCDF1C6A940500781303 /* Main.storyboard */; };
+		7C4EDCE31C6A940500781303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C4EDCE21C6A940500781303 /* Assets.xcassets */; };
+		7C4EDCE61C6A940500781303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4EDCE41C6A940500781303 /* LaunchScreen.storyboard */; };
+		7C4EDCEE1C6A949B00781303 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4EDCED1C6A949B00781303 /* MyCollectionViewController.swift */; };
+		7C4EDCF21C6A99CD00781303 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4EDCF11C6A99CD00781303 /* MyCollectionViewCell.swift */; };
+		7C4EDD001C6A9BC100781303 /* chevy_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4EDCF41C6A9BC100781303 /* chevy_small.jpg */; };
+		7C4EDD011C6A9BC100781303 /* ford_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4EDCF51C6A9BC100781303 /* ford_small.jpg */; };
+		7C4EDD021C6A9BC100781303 /* highlander_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4EDCF61C6A9BC100781303 /* highlander_small.jpg */; };
+		7C4EDD031C6A9BC100781303 /* honda_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4EDCF71C6A9BC100781303 /* honda_small.jpg */; };
+		7C4EDD041C6A9BC100781303 /* jeep_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4EDCF81C6A9BC100781303 /* jeep_small.jpg */; };
+		7C4EDD051C6A9BC100781303 /* mini_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4EDCF91C6A9BC100781303 /* mini_small.jpg */; };
+		7C4EDD061C6A9BC100781303 /* nissan_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4EDCFA1C6A9BC100781303 /* nissan_small.jpg */; };
+		7C4EDD071C6A9BC100781303 /* rover_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4EDCFB1C6A9BC100781303 /* rover_small.jpg */; };
+		7C4EDD081C6A9BC100781303 /* smart_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4EDCFC1C6A9BC100781303 /* smart_small.jpg */; };
+		7C4EDD091C6A9BC100781303 /* venza_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4EDCFD1C6A9BC100781303 /* venza_small.jpg */; };
+		7C4EDD0A1C6A9BC100781303 /* volvo_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4EDCFE1C6A9BC100781303 /* volvo_small.jpg */; };
+		7C4EDD0B1C6A9BC100781303 /* vw_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C4EDCFF1C6A9BC100781303 /* vw_small.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C4EDCD81C6A940500781303 /* CollectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C4EDCDB1C6A940500781303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C4EDCE01C6A940500781303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C4EDCE21C6A940500781303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C4EDCE51C6A940500781303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C4EDCE71C6A940500781303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C4EDCED1C6A949B00781303 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+		7C4EDCF11C6A99CD00781303 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		7C4EDCF41C6A9BC100781303 /* chevy_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chevy_small.jpg; path = ../../../../Downloads/iOS8BookSamples_SE/carImagesSmall/chevy_small.jpg; sourceTree = "<group>"; };
+		7C4EDCF51C6A9BC100781303 /* ford_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ford_small.jpg; path = ../../../../Downloads/iOS8BookSamples_SE/carImagesSmall/ford_small.jpg; sourceTree = "<group>"; };
+		7C4EDCF61C6A9BC100781303 /* highlander_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = highlander_small.jpg; path = ../../../../Downloads/iOS8BookSamples_SE/carImagesSmall/highlander_small.jpg; sourceTree = "<group>"; };
+		7C4EDCF71C6A9BC100781303 /* honda_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = honda_small.jpg; path = ../../../../Downloads/iOS8BookSamples_SE/carImagesSmall/honda_small.jpg; sourceTree = "<group>"; };
+		7C4EDCF81C6A9BC100781303 /* jeep_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jeep_small.jpg; path = ../../../../Downloads/iOS8BookSamples_SE/carImagesSmall/jeep_small.jpg; sourceTree = "<group>"; };
+		7C4EDCF91C6A9BC100781303 /* mini_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mini_small.jpg; path = ../../../../Downloads/iOS8BookSamples_SE/carImagesSmall/mini_small.jpg; sourceTree = "<group>"; };
+		7C4EDCFA1C6A9BC100781303 /* nissan_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nissan_small.jpg; path = ../../../../Downloads/iOS8BookSamples_SE/carImagesSmall/nissan_small.jpg; sourceTree = "<group>"; };
+		7C4EDCFB1C6A9BC100781303 /* rover_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rover_small.jpg; path = ../../../../Downloads/iOS8BookSamples_SE/carImagesSmall/rover_small.jpg; sourceTree = "<group>"; };
+		7C4EDCFC1C6A9BC100781303 /* smart_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = smart_small.jpg; path = ../../../../Downloads/iOS8BookSamples_SE/carImagesSmall/smart_small.jpg; sourceTree = "<group>"; };
+		7C4EDCFD1C6A9BC100781303 /* venza_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = venza_small.jpg; path = ../../../../Downloads/iOS8BookSamples_SE/carImagesSmall/venza_small.jpg; sourceTree = "<group>"; };
+		7C4EDCFE1C6A9BC100781303 /* volvo_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = volvo_small.jpg; path = ../../../../Downloads/iOS8BookSamples_SE/carImagesSmall/volvo_small.jpg; sourceTree = "<group>"; };
+		7C4EDCFF1C6A9BC100781303 /* vw_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = vw_small.jpg; path = ../../../../Downloads/iOS8BookSamples_SE/carImagesSmall/vw_small.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C4EDCD51C6A940500781303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C4EDCCF1C6A940500781303 = {
+			isa = PBXGroup;
+			children = (
+				7C4EDCDA1C6A940500781303 /* CollectionDemo */,
+				7C4EDCD91C6A940500781303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C4EDCD91C6A940500781303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C4EDCD81C6A940500781303 /* CollectionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C4EDCDA1C6A940500781303 /* CollectionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7C4EDCF41C6A9BC100781303 /* chevy_small.jpg */,
+				7C4EDCF51C6A9BC100781303 /* ford_small.jpg */,
+				7C4EDCF61C6A9BC100781303 /* highlander_small.jpg */,
+				7C4EDCF71C6A9BC100781303 /* honda_small.jpg */,
+				7C4EDCF81C6A9BC100781303 /* jeep_small.jpg */,
+				7C4EDCF91C6A9BC100781303 /* mini_small.jpg */,
+				7C4EDCFA1C6A9BC100781303 /* nissan_small.jpg */,
+				7C4EDCFB1C6A9BC100781303 /* rover_small.jpg */,
+				7C4EDCFC1C6A9BC100781303 /* smart_small.jpg */,
+				7C4EDCFD1C6A9BC100781303 /* venza_small.jpg */,
+				7C4EDCFE1C6A9BC100781303 /* volvo_small.jpg */,
+				7C4EDCFF1C6A9BC100781303 /* vw_small.jpg */,
+				7C4EDCDB1C6A940500781303 /* AppDelegate.swift */,
+				7C4EDCDF1C6A940500781303 /* Main.storyboard */,
+				7C4EDCE21C6A940500781303 /* Assets.xcassets */,
+				7C4EDCE41C6A940500781303 /* LaunchScreen.storyboard */,
+				7C4EDCE71C6A940500781303 /* Info.plist */,
+				7C4EDCED1C6A949B00781303 /* MyCollectionViewController.swift */,
+				7C4EDCF11C6A99CD00781303 /* MyCollectionViewCell.swift */,
+			);
+			path = CollectionDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C4EDCD71C6A940500781303 /* CollectionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C4EDCEA1C6A940500781303 /* Build configuration list for PBXNativeTarget "CollectionDemo" */;
+			buildPhases = (
+				7C4EDCD41C6A940500781303 /* Sources */,
+				7C4EDCD51C6A940500781303 /* Frameworks */,
+				7C4EDCD61C6A940500781303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollectionDemo;
+			productName = CollectionDemo;
+			productReference = 7C4EDCD81C6A940500781303 /* CollectionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C4EDCD01C6A940500781303 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Laryssa Husiak";
+				TargetAttributes = {
+					7C4EDCD71C6A940500781303 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 7C4EDCD31C6A940500781303 /* Build configuration list for PBXProject "CollectionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C4EDCCF1C6A940500781303;
+			productRefGroup = 7C4EDCD91C6A940500781303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C4EDCD71C6A940500781303 /* CollectionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C4EDCD61C6A940500781303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C4EDCE61C6A940500781303 /* LaunchScreen.storyboard in Resources */,
+				7C4EDD041C6A9BC100781303 /* jeep_small.jpg in Resources */,
+				7C4EDD071C6A9BC100781303 /* rover_small.jpg in Resources */,
+				7C4EDD001C6A9BC100781303 /* chevy_small.jpg in Resources */,
+				7C4EDD0B1C6A9BC100781303 /* vw_small.jpg in Resources */,
+				7C4EDD031C6A9BC100781303 /* honda_small.jpg in Resources */,
+				7C4EDD081C6A9BC100781303 /* smart_small.jpg in Resources */,
+				7C4EDD051C6A9BC100781303 /* mini_small.jpg in Resources */,
+				7C4EDD061C6A9BC100781303 /* nissan_small.jpg in Resources */,
+				7C4EDD0A1C6A9BC100781303 /* volvo_small.jpg in Resources */,
+				7C4EDCE31C6A940500781303 /* Assets.xcassets in Resources */,
+				7C4EDD021C6A9BC100781303 /* highlander_small.jpg in Resources */,
+				7C4EDD011C6A9BC100781303 /* ford_small.jpg in Resources */,
+				7C4EDCE11C6A940500781303 /* Main.storyboard in Resources */,
+				7C4EDD091C6A9BC100781303 /* venza_small.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C4EDCD41C6A940500781303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C4EDCEE1C6A949B00781303 /* MyCollectionViewController.swift in Sources */,
+				7C4EDCDC1C6A940500781303 /* AppDelegate.swift in Sources */,
+				7C4EDCF21C6A99CD00781303 /* MyCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C4EDCDF1C6A940500781303 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C4EDCE01C6A940500781303 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C4EDCE41C6A940500781303 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C4EDCE51C6A940500781303 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C4EDCE81C6A940500781303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C4EDCE91C6A940500781303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C4EDCEB1C6A940500781303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CollectionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaryssaHusiak.CollectionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7C4EDCEC1C6A940500781303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CollectionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaryssaHusiak.CollectionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C4EDCD31C6A940500781303 /* Build configuration list for PBXProject "CollectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C4EDCE81C6A940500781303 /* Debug */,
+				7C4EDCE91C6A940500781303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C4EDCEA1C6A940500781303 /* Build configuration list for PBXNativeTarget "CollectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C4EDCEB1C6A940500781303 /* Debug */,
+				7C4EDCEC1C6A940500781303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C4EDCD01C6A940500781303 /* Project object */;
+}
